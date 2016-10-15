@@ -1,0 +1,80 @@
+#bs-example-navbar-collapse-1 {
+	float: right;
+}
+
+.main {
+	margin-left: 10px;
+	float: left;
+	width: 60%;
+	margin-right: 20px;
+}
+
+#photo {
+	display: inline;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#bio {
+	display: inline;
+	word-wrap: break-word;
+}
+
+.panel-primary {
+	float: left;
+	clear: right;
+}
+
+.icon {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #4e5d6c;
+    display: block;
+}
+
+.text-muted {
+	color: white;
+}
+
+.portimage { 
+   position: relative;
+   float: left;
+   padding-right: 20px;
+   padding-bottom: 20px;
+}
+
+.portlink {
+	margin: 0;
+}
+
+.portpic {
+	height: 180px;
+	width: 205px;
+}
+
+.porttext { 
+   position: absolute; 
+   top: 70%; 
+   left: 0;
+   color: white;
+   background-color: #df691a;
+   font-size: 18px;
+   height: 30px;
+   padding-top: 3px;
+   width: 205px;
+   text-align: center;
+}
+
+.panel {
+	margin-bottom: 50px;
+}

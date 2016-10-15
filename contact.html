@@ -3,64 +3,99 @@
 	<head>
 		<title>Tyler Yonke Profile - Contact</title>
 
-		<link rel="stylesheet" href="assets/css/reset.css">
-		
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+
 		<link rel="stylesheet" href="assets/css/style.css">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
 
 	<section id="fulltop">
-			<div id="name">
-				<h1>Tyler Yonke</h1>
-			</div>
-			<div id="navigation">
-				<a href="index.html">About</a>
-					<span class="navspace"> | </span>
-				<a href="portfolio.html">Portfolio</a>
-					<span class="navspace"> | </span>
-				<a href="contact.html">Contact</a>
-			</div>
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" href="#">Tyler Yonke</a>
+					    </div>
+
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					      	<li><a href="index.html">About</a></li>
+					        <li><a href="portfolio.html">Portfolio</a></li>
+					        <li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li>	
+					      </ul>
+					    </div>
+					  </div>
+					</nav>
 	</section>
 
-	<section id="middle">
-	<div class="main" id="contact">	
-		<h1 class="mainhead">Contact</h1>
-		<hr>
 
-		<form action="demo_form.asp" method="get">
-			<br>
- 		 	Name <br><input type="text" name="name" value="John Smith">
- 		 	<br>
- 			Email <br><input type="text" name="email" value="example@gmail.com">
- 			<br>
-  			Message <br><textarea type="text" name="message" rows="10" cols="50"></textarea>
-  			<br>
-			<input id="submitbutton" type="submit" value="Submit">
-		</form>
+	<div class="main panel panel-primary" id="contact">
+  		<div class="panel-heading">
+    		<h2 class="panel-title">Contact</h2>
+  		</div>
+  		<div class="panel-body">
+
+				<form class="form-horizontal">
+				  <fieldset>
+				    <div class="form-group">
+				      <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+				      <div class="col-lg-10">
+				        <input type="text" class="form-control" id="inputEmail" placeholder="John Smith">
+				      </div>
+				    </div>
+				    <div class="form-group">
+				      <label for="inputPassword" class="col-lg-2 control-label">Email</label>
+				      <div class="col-lg-10">
+				        <input type="password" class="form-control" id="inputPassword" placeholder="example@gmail.com">
+				      </div>
+				    </div>
+				    <div class="form-group">
+				      <label for="textArea" class="col-lg-2 control-label">Message</label>
+				      <div class="col-lg-10">
+				        <textarea class="form-control" rows="3" id="textArea"></textarea>
+				      </div>
+				    </div>
+				    <div class="form-group">
+      				  <div class="col-lg-10 col-lg-offset-2">
+            			<button type="submit" class="btn btn-primary">Submit</button>
+      				  </div>
+    				</div>
+				  </fieldset>
+				</form>
+  		</div>
 	</div>
 
-	<div id="connect">
-		<h2>Connect with Me</h2>
-		<hr>
-		<br>
-			<a href="https://github.com/tyleryonke">
-				<img src="assets/images/github.png" alt="GitHub" width="50" height="50" border="0">
+	<div class="panel panel-primary">
+  		<div class="panel-heading">
+    		<h3 class="panel-title">Connect with Me</h3>
+  		</div>
+  		<div class="panel-body">
+    		<a href="https://github.com/tyleryonke">
+				<img class="icon" src="assets/images/github.png" alt="GitHub" width="50" height="50" border="0">
 			</a>
 			<a href="https://www.linkedin.com/in/tyler-yonke-03461061">
-				<img src="assets/images/linkedin.png" alt="LinkedIn" width="50" height="50" border="0">
+				<img class="icon" src="assets/images/linkedin.png" alt="LinkedIn" width="50" height="50" border="0">
 			</a>
 			<a href="http://stackoverflow.com/users/6784091/tyler-yonke?tab=profile">
-				<img src="assets/images/stackoverflow.png" alt="StackOverflow" width="50" height="50" border="0">
+				<img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow" width="50" height="50" border="0">
 			</a>
+  		</div>
 	</div>
-	</section>
 
-	<div id="footer">
-		<span id="foottext">&copy; Copyright 2016 Tyler Yonke</span>
-	</div>
+	<footer class="footer">
+      	<div class="container">
+       	    <span class="text-muted">&copy; Copyright 2016 Tyler Yonke</span>
+     	</div>
+    </footer>
 	
 	</body>
 </html>

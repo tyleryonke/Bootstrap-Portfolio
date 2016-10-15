@@ -4,89 +4,104 @@
 	<head>
 		<title>Tyler Yonke Profile - Portfolio</title>
 
-		<link rel="stylesheet" href="assets/css/reset.css">
-		
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+
 		<link rel="stylesheet" href="assets/css/style.css">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
 
 	<section id="fulltop">
-			<div id="name">
-				<h1>Tyler Yonke</h1>
-			</div>
-			<div id="navigation">
-				<a href="index.html">About</a>
-					<span class="navspace"> | </span>
-				<a href="portfolio.html">Portfolio</a>
-					<span class="navspace"> | </span>
-				<a href="contact.html">Contact</a>
-			</div>
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					      <a class="navbar-brand" href="#">Tyler Yonke</a>
+					    </div>
+
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					      	<li><a href="index.html">About</a></li>
+					        <li class="active"><a href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
+							<li><a href="contact.html">Contact</a></li>
+					      </ul>
+					    </div>
+					  </div>
+					</nav>
 	</section>
 
-	<section id="middle">
-	<div class="main" id="portfolio">
-		<h1 class="mainhead">Portfolio</h1>
-		<hr>
-		<br>
+	<div class="main panel panel-primary" id="portfolio">
+	  <div class="panel-heading">
+	    <h2 class="panel-title">Portfolio</h2>
+	  </div>
+	  <div class="panel-body">
+		    <div class="portimage">
+				<a class="portlink" href="placeholder1">
+					<img class="portpic" src="assets/images/port_image_1.jpg" alt="Hangman" />
+	      				<span class="porttext">Hangman</span>
+	      		</a>
+			</div>
 
-		<div class="portimage">
-			<a class="portlink" href="placeholder1">
-				<img class="portpic" src="assets/images/port_image_1.jpg" alt="Hangman" />
-      				<span class="porttext">Hangman</span>
-      		</a>
-		</div>
+			<div class="portimage">
+				<a class="portlink" href="placeholder2">
+					<img class="portpic" src="assets/images/port_image_2.jpg" alt="RPG Game" />
+	      				<span class="porttext">RPG Game</span>
+	      		</a>
+			</div>
 
-		<div class="portimage">
-			<a class="portlink" href="placeholder2">
-				<img class="portpic" src="assets/images/port_image_2.jpg" alt="RPG Game" />
-      				<span class="porttext">RPG Game</span>
-      		</a>
-		</div>
+			<div class="portimage">
+				<a class="portlink" href="placeholder3">
+					<img class="portpic" src="assets/images/port_image_3.jpg" alt="Trivia Game" />
+	      				<span class="porttext">Trivia Game</span>
+	      		</a>
+			</div>
 
-		<div class="portimage">
-			<a class="portlink" href="placeholder3">
-				<img class="portpic" src="assets/images/port_image_3.jpg" alt="Trivia Game" />
-      				<span class="porttext">Trivia Game</span>
-      		</a>
-		</div>
+			<div class="portimage">
+				<a class="portlink" href="placeholder4">
+					<img class="portpic" src="assets/images/port_image_4.jpg" alt="Rutgers Info Widget" />
+	      				<span class="porttext">Rutgers Info Widget</span>
+	      		</a>
+			</div>
 
-		<div class="portimage">
-			<a class="portlink" href="placeholder4">
-				<img class="portpic" src="assets/images/port_image_4.jpg" alt="Rutgers Info Widget" />
-      				<span class="porttext">Rutgers Info Widget</span>
-      		</a>
-		</div>
+			<div class="portimage">
+				<a class="portlink" href="placeholder5">
+					<img class="portpic" src="assets/images/port_image_5.jpg" alt="Rock Paper Scissors" />
+	      				<span class="porttext">Rock Paper Scissors</span>
+	      		</a>
+			</div>
+	  </div>
+	</div>	
 
-		<div class="portimage">
-			<a class="portlink" href="placeholder5">
-				<img class="portpic" src="assets/images/port_image_5.jpg" alt="Rock Paper Scissors" />
-      				<span class="porttext">Rock Paper Scissors</span>
-      		</a>
-		</div>
-	</div>
-
-	<div id="connect">
-		<h2>Connect with Me</h2>
-		<hr>
-		<br>
-			<a href="https://github.com/tyleryonke">
-				<img src="assets/images/github.png" alt="GitHub" width="50" height="50" border="0">
+	<div class="panel panel-primary">
+  		<div class="panel-heading">
+    		<h3 class="panel-title">Connect with Me</h3>
+  		</div>
+  		<div class="panel-body">
+    		<a href="https://github.com/tyleryonke">
+				<img class="icon" src="assets/images/github.png" alt="GitHub" width="50" height="50" border="0">
 			</a>
 			<a href="https://www.linkedin.com/in/tyler-yonke-03461061">
-				<img src="assets/images/linkedin.png" alt="LinkedIn" width="50" height="50" border="0">
+				<img class="icon" src="assets/images/linkedin.png" alt="LinkedIn" width="50" height="50" border="0">
 			</a>
 			<a href="http://stackoverflow.com/users/6784091/tyler-yonke?tab=profile">
-				<img src="assets/images/stackoverflow.png" alt="StackOverflow" width="50" height="50" border="0">
+				<img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow" width="50" height="50" border="0">
 			</a>
+  		</div>
 	</div>
-	</section>
 
-	<div id="footer">
-		<span id="foottext">&copy; Copyright 2016 Tyler Yonke</span>
-	</div>
+	<footer class="footer">
+      	<div class="container">
+       	    <span class="text-muted">&copy; Copyright 2016 Tyler Yonke</span>
+     	</div>
+    </footer>
 
 	</body>
 </html>
